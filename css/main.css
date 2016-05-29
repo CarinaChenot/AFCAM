@@ -1,11 +1,11 @@
 /* CSS commun aux pages */
+
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -48,12 +48,36 @@ header a {
 }
 header a:hover {
   text-decoration: none;
-  color: #000;
+  color: #501a85;
 }
-#smallMenu i {
-  padding-right: 20px;
-  font-size: 30px;
+nav #join {
+  background-color: #501a85;
   color: #FFF;
+  border-radius: 5px;
+}
+nav #join:hover {
+  background-color: #FFF;
+  color: #501a85;
+  border-radius: 5px;
+}
+#hamburger {
+  cursor: pointer;
+}
+#hamburger i {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+}
+#smallMenu {
+  display: none;
+  text-align: right;
+}
+#smallMenu.open-menu {
+  display: block;
+}
+#smallMenu #join {
+  margin-top: 10px;
 }
 
 /* Animation des liens de la navBar */
