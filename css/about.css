@@ -1,0 +1,36 @@
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  padding-bottom: 44px;
+}
+.bg {
+  background-color: rgba(124, 67, 255, 0.1);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+.bgPhoto {
+  background-color: #878787;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+hr {
+  height: 6px;
+  background-color: #4e1e87;
+  margin: 50px 80px;
+  border: inherit;
+}
+a.discover-action-btn {
+  color: #ffffff;
+  background-color: #4e1e87;
+  border-radius: 17px;
+  padding: 6px 10px;
+  margin
+}
+#action-button {
+  margin-bottom: 50px;
+}
