@@ -1,0 +1,45 @@
+.PageTitle{
+  text-align: center;
+  font: 400 30px OpenSans;
+  color: #501a85;
+}
+
+ul li img {
+  width: 100%;
+  padding: 20px;
+}
+
+ul li img:hover{
+ opacity: 0.8;
+ filter: blur();
+  
+}
+
+li{
+  list-style: none;
+}
+
+.ListPortrait li{
+  border-bottom: 1px solid #501a85;
+  
+}
+
+.ListPortrait{
+  width: 100%;
+}
+
+.blockPortrait{
+  display: inline-block;
+  width: 30%;
+}
+
+.infosPortrait{
+  display: inline-block;
+  width:50%;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+p{
+  padding-top: 20px;
+}
