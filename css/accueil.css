@@ -1,25 +1,3 @@
-/* Hero */
-
-
-/*#blackOverlay {
-  background-color: #000;
-  opacity: 0.0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-#banner {
-  position: fixed;
-  z-index: -5;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-}
-#banner img {
-  width: 100%;
-  height: auto;
-}
 
 /* BANNIERE */
 
@@ -64,6 +42,8 @@
 
 #actions {
   background-color: #FFF;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 /*** CITATION ***/
@@ -76,8 +56,13 @@
   margin-top: 5%;
   margin-bottom: 30px;
 }
-#citation #text h3 {
-  margin-top: 0px;
+#citation p {
+  font-size: 17px;
+  text-align: justify;
+}
+#citation #text h5 {
+  text-align: right;
+  margin-top: 30px;
 }
 
 /*** PARTENAIRES ***/
