@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AFCAM - IDF</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div id="logo">
+        <a href="#logo" title="Accueil">
+          <img src="img/afcamLogo.png" alt="logo" />
+        </a>
+      </div>
+      <nav id="desktopMenu" class="hidden-xs">
+        <ul class="list-inline text-uppercase">
+          <li class="menuAbout active"><a href="#about">L'association</a></li>
+          <li class="menuBureau"><a href="#bureau">Bureau</a></li>
+          <li class="menuEvents"><a href="#events">Évènements</a></li>
+          <li class="menuJoin"><a href="#adherer">Adhésion</a></li>
+          <li class="menuContact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <span id="menu-icon" class="visble-sm visible-xs glyphicon glyphicon-menu-hamburger"></span>
+      <nav id="mobileMenu" class="">
+        <ul class="list-unstyled">
+          <li class="menuAbout active"><a href="#about">L'association</a></li>
+          <li class="menuBureau"><a href="#bureau">Bureau</a></li>
+          <li class="menuEvents"><a href="#events">Évènements</a></li>
+          <li class="menuJoin"><a href="#adherer">Adhésion</a></li>
+          <li class="menuContact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <header id="headerSmall">
+    <div class="container">
+      <div id="logo">
+        <a href="#logo" title="Accueil">
+          <img src="img/afcamLogo.png" alt="logo" />
+        </a>
+      </div>
+      <nav id="desktopMenu" class="hidden-xs">
+        <ul class="list-inline text-uppercase">
+          <li class="menuAbout active"><a href="#about">L'association</a></li>
+          <li class="menuBureau"><a href="#bureau">Bureau</a></li>
+          <li class="menuEvents"><a href="#events">Évènements</a></li>
+          <li class="menuJoin"><a href="#adherer">Adhésion</a></li>
+          <li class="menuContact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <span id="menu-icon" class="visble-sm visible-xs glyphicon glyphicon-menu-hamburger"></span>
+      <nav id="mobileMenu" class="">
+        <ul class="list-unstyled">
+          <li class="menuAbout active"><a href="#about">L'association</a></li>
+          <li class="menuBureau"><a href="#bureau">Bureau</a></li>
+          <li class="menuEvents"><a href="#events">Évènements</a></li>
+          <li class="menuJoin"><a href="#adherer">Adhésion</a></li>
+          <li class="menuContact"><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="text-center text-uppercase imgOverlay">
+      <h2>Rejoignez</h2>
+      <h1>L'Association française des arbitres</h1>
+      <a id="contentButton" href="#content" class="btn">En savoir +</a>
+      <a href="#adherer" class="btn joinButton">Adhérer</a>
+    </div>
+    <div id="sliderButtons" class="text-center">
+      <i id="circle0" class="fa fa-circle-o" aria-hidden="true"></i>
+      <i id="circle1" class="fa fa-circle" aria-hidden="true"></i>
+      <i id="circle2" class="fa fa-circle-o" aria-hidden="true"></i>
+    </div>
+  </section>
+  <div id="content">
+    <!-- À propos -->
+    <section id="about" class="hash">
+      <div class="container text-center">
+        <h1>Bienvenue sur le site de l'AFCAM</h1>
+        <p>
+          L'association Française du Corps Arbitral Multisport a été créée en 2007 dans le but de promouvoir le corps arbitral et de mener des actions groupées pour les mêmes causes.
+        </p>
+        <div id="actions">
+          <div class="action col-md-4">
+            <img src="img/referee.png" alt="referee" />
+            <h4>
+              Nous rassemblons un grand nombre d'arbitres
+            </h4>
+          </div>
+          <div class="action col-md-4">
+            <img src="img/petition.png" alt="petition" />
+            <h4>
+              Nous défendons la cause des arbitres auprès des citoyens
+            </h4>
+          </div>
+          <div class="action col-md-4">
+            <img src="img/group.png" alt="group" />
+            <h4>
+              Nous partageons la cause des arbitres à la communauté sportive
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Notre bureau -->
+    <section id="bureau" class="hash">
+      <div class="container">
+        <div class="col-sm-5">
+          <h1>Notre<br/><span>bureau</span></h1>
+          <p>
+            Constitué de 4 personnes, nous mettons tout en œuvre pour organiser au mieux l'association et à répondre aux besoins de ses membres.
+          </p>
+        </div>
+        <div class="col-sm-7">
+          <div id="photo1" class="photo">
+            <img src="img/photo3.jpg" alt="photo" />
+            <div class="photoInfo text-center">
+              <h4 class="photoTitle text-center">John Doe</h4>
+              <h3 class="photoRole">Président</h3>
+            </div>
+          </div>
+          <div id="photo2" class="photo">
+            <img src="img/photo3.jpg" alt="photo" />
+            <div class="photoInfo text-center">
+              <h4 class="photoTitle text-center">John Doe</h4>
+              <h3 class="photoRole">Vice-président</h3>
+            </div>
+          </div>
+          <div id="photo3" class="photo">
+            <img src="img/photo3.jpg" alt="photo" />
+            <div class="photoInfo text-center">
+              <h4 class="photoTitle text-center">John Doe</h4>
+              <h3 class="photoRole">Trésorier</h3>
+            </div>
+          </div>
+          <div id="photo4" class="photo">
+            <img src="img/photo3.jpg" alt="photo" />
+            <div class="photoInfo text-center">
+              <h4 class="photoTitle text-center">John Doe</h4>
+              <h3 class="photoRole">Responsable Communication</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Évènements -->
+    <section id="events" class="hash">
+      <div class="container">
+        <h1>Évènements</h1>
+        <!-- Event 1 -->
+        <div class="event">
+          <div class="eventImg hidden-xs">
+            <img src="img/event1.jpg" alt="event" />
+          </div>
+          <div class="eventInfos">
+            <h4 class="eventTitle">Sentez-vous sport 2016</h4>
+            <p><i class="fa fa-calendar" aria-hidden="true"></i>Le 14/09/2016</p>
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i>10h</p>
+          </div>
+          <a class="eventLink btn" href="https://www.facebook.com/afcamiledefrance/posts/1770045769881199" target="_blank">En savoir +</a>
+        </div>
+        <!-- Event 2 -->
+        <div class="event">
+          <div class="eventImg hidden-xs">
+            <img src="img/event2.jpg" alt="event" />
+          </div>
+          <div class="eventInfos">
+            <h4 class="eventTitle">Trophée des Jeunes Officiels et Assemblée Générale</h4>
+            <p><i class="fa fa-calendar" aria-hidden="true"></i>Le 10/03/16</p>
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i>10h</p>
+          </div>
+          <a class="eventLink btn" href="https://www.facebook.com/events/852487881545524/" target="_blank">En savoir +</a>
+        </div>
+        <!-- Event 3 -->
+        <div class="event">
+          <div class="eventImg hidden-xs">
+            <img src="img/event1.jpg" alt="event" />
+          </div>
+          <div class="eventInfos">
+            <h4 class="eventTitle">Titre de l'évènement</h4>
+            <p><i class="fa fa-calendar" aria-hidden="true"></i>Le 21/07/16</p>
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i>10h</p>
+          </div>
+          <a class="eventLink btn" href="https://www.facebook.com/afcamiledefrance/posts/1770045769881199" target="_blank">En savoir +</a>
+        </div>
+      </div>
+    </section>
+    <!-- Adhérer -->
+    <section id="adherer" class="text-center">
+      <div class="bgImg">
+      </div>
+      <div class="imgOverlay">
+
+      </div>
+      <div class="content">
+        <div class="container">
+          <button type="button" name="button" class="btn joinButton">Adhérer</button>
+          <h4>Téléchargez le bordereau d'admission</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Partenaires -->
+    <section id="partenaires" class="hash text-center">
+      <div class="container">
+        <div class="col-md-6">
+          <img id="partenaire1" src="img/partenaire1.jpg" alt="partenaire" />
+        </div>
+        <div class="col-md-6">
+          <img id="partenaire2" src="img/partenaire2.png" alt="partenaire" />
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="hash">
+      <div class="container">
+        <h1 class="text-center">Nous contacter</h1>
+        <div id="contactInfos" class="col-md-6">
+          <h3>Notre localité</h3>
+          <div id="ourAdress">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <p>1 Avenue Pierre de Coubertin, 75013 Paris</p>
+          </div>
+          <div id="ourPhone">
+            <span class="glyphicon glyphicon-earphone"></span>
+            <p>01 40 78 28 00</p>
+          </div>
+          <div id="ourEmail">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <p>afcam-idf@google.com</p>
+          </div>
+          <div id="ourLocation">
+            <img src="img/map.png" alt="map" />
+          </div>
+        </div>
+        <div id="contactForm" class="col-md-6">
+          <h3>Laissez-nous un message</h3>
+          <form id="formulaireContact" action="contactForm.php" method="post" enctype="text/plain">
+            <fieldset class="form-group">
+              <input id="name" name="name" type="text" class="form-control" placeholder="Nom *" class="form-inline">
+            </fieldset>
+            <fieldset class="form-group">
+              <input id="email" name="email" type="email" class="form-control" placeholder="Email *">
+            </fieldset>
+            <fieldset class="form-group">
+              <input id="subject" name="subject" type="text" class="form-control" placeholder="Objet *">
+            </fieldset>
+            <fieldset class="form-group">
+              <textarea id="message" name="message" class="form-control" rows="4" placeholder="Message *">Pourriez-vous m'envoyer la newsletter ?</textarea>
+            </fieldset>
+            <button type="submit" class="btn">Valider</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>
+        ©2016 - AFCAM Île-de-France
+      </p>
+      <div id="legalFooter">
+        <ul class="list-inline">
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Statut</a></li>
+          <li><a href="#">Règlement intérieur</a></li>
+          <li><a href="#">Crédits</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</body>
+
+</html>
