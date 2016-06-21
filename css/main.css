@@ -1,0 +1,389 @@
+/* GLOBAL */
+
+.imgOverlay {
+  position: absolute;
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  color: #FFF;
+}
+.btn:hover {
+  color: #aaaaaa;
+}
+
+/* Header */
+
+header {
+  background-color: #FFF;
+}
+#logo {
+  display: inline-block;
+  margin: 10px 0px 3px 0px;
+}
+#logo img {
+  height: 70px;
+}
+header a:hover {
+  text-decoration: none;
+}
+header li {
+  margin-left: 20px;
+}
+
+/* Header Small */
+
+#headerSmall {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  width: 100%;
+}
+#headerSmall #logo img {
+  height: 50px;
+}
+#headerSmall #desktopMenu {
+  padding-top: 23px;
+}
+#headerSmall #desktopMenu li {
+  padding-bottom: 17px;
+}
+#headerSmall #menu-icon {
+  margin-top: 20px;
+}
+
+/* Desktop Menu */
+
+#desktopMenu {
+  float: right;
+  padding-top: 31px;
+}
+#desktopMenu a {
+  color: #4e4e4e;
+}
+#desktopMenu ul {
+  margin: 0;
+}
+#desktopMenu li {
+  padding-bottom: 29px;
+}
+#desktopMenu li.active {
+  border-bottom: solid 5px #501a85;
+  color: #501a85;
+}
+#desktopMenu li:hover a {
+  color: #501a85;
+}
+
+/* Mobile Menu */
+
+#menu-icon {
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  z-index: 21;
+}
+#mobileMenu {
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 0;
+  background-color: #222222;
+  z-index: 9;
+}
+#mobileMenu ul {
+  width: 200px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+#mobileMenu a {
+  background-color: #222222;
+  display: block;
+  color: #FFF;
+  margin: 10px 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: solid 1px #4e4e4e;
+}
+#mobileMenu a:hover {
+  font-weight: bold;
+}
+#menu-icon {
+  font-size: 1.8em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Hero */
+
+#hero {
+  height: 700px;
+  position: relative;
+  background-image: url(../img/herobg1.jpg);
+  background-size: cover;
+  color: #FFF;
+}
+#hero h2 {
+  margin-top: 20%;
+}
+#hero a {
+  margin-top: 70px;
+  background-color: #000;
+  padding: 10px 16px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+#hero .joinButton {
+  background-color: #501a85;
+}
+#sliderButtons {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+#sliderButtons i {
+  cursor: pointer;
+}
+#sliderButtons #circle1 {
+  margin: 0 6px;
+}
+
+/* À propos */
+
+#about {
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+#about h1 {
+  margin-bottom: 40px;
+}
+#about img {
+  height: 100px;
+}
+#about p {
+  margin: 15px 20%;
+}
+.action {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Notre bureau */
+#bureau {
+  color: #aaaaaa;
+  background-color: #333333;
+  padding: 50px;
+}
+#bureau h1 {
+  font-size: 50px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+#bureau h1 span {
+  margin: 20px;
+}
+#bureau p {
+  position: relative;
+  margin: 20px;
+}
+#bureau p:after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #501a85;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+.photo img {
+  height: 300px;
+}
+.photo {
+  display: inline-block;
+  position: relative;
+  margin: 10px 7px;
+}
+.photoInfo {
+  opacity: 0.5;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  width: 260px;
+  height: 260px;
+  background-color: #000;
+  display: none;
+}
+.photoTitle {
+  color: #FFF;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+.photoRole {
+  color: #FFF;
+  margin-top: 10px;
+}
+
+/* Évènements */
+
+#events {
+  padding-bottom: 60px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+#events .event {
+  position: relative;
+  -moz-box-shadow: 2px 2px 10px 0px #656565;
+  -webkit-box-shadow: 2px 2px 10px 0px #656565;
+  -o-box-shadow: 2px 2px 10px 0px #656565;
+  box-shadow: 2px 2px 10px 0px #656565;
+  filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=10);
+  height: 150px;
+  margin: 20px 0px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.event:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.eventImg {
+  display: inline-block;
+}
+.eventInfos {
+  display: inline-block;
+  margin-left: 24px;
+  position: absolute;
+  top: 15%;
+}
+.eventInfos i {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.eventTitle {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.event img {
+  height: 150px;
+}
+.eventLink {
+  position: absolute;
+  top: 37%;
+  right: 10%;
+  background-color: #000;
+  padding: 8px 14px;
+  text-transform: uppercase;
+}
+
+/* Adherer */
+
+#adherer {
+  position: relative;
+  overflow: auto;
+  height: 300px;
+}
+#adherer .bgImg {
+  background-image: url(../img/adhererbg.jpg);
+  background-size: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 300px;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+#adherer .content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+#adherer h4 {
+  margin-top: 20px;
+  color: #FFF;
+}
+#adherer button {
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #501a85;
+  padding: 14px 20px;
+}
+
+/* Partenaires */
+#partenaires {
+  margin-top: 13px;
+  padding-bottom: 30px;
+}
+#partenaires #partenaire1 {
+  width: 300px;
+}
+#partenaires #partenaire2 {
+  margin-top: 13%;
+}
+
+/* Contact */
+
+#contact {
+    padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: #eeeeee;
+}
+#contact h1 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#contact h3 {
+  margin-bottom: 20px;
+}
+#contact p {
+  display: inline-block;
+  margin: 5px 0px 5px 10px;
+}
+#ourLocation img {
+  margin-top: 10px;
+  height: 200px;
+}
+#formulaireContact {
+  margin-top: 30px;
+}
+#formulaireContact button {
+  background-color: #501a85;
+}
+
+/* Footer */
+
+footer {
+  background-color: #222222;
+  color: #FFF;
+}
+footer p {
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+#legalFooter {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+}
+#legalFooter a{
+  color: #fff;
+}
+#legalFooter a:hover {
+  text-decoration: none;
+}
+#legalFooter li {
+  margin-left: 10px;
+}
