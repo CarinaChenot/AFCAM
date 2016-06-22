@@ -424,3 +424,13 @@ footer p {
     font-size:18px;
   }
 }
+
+/* Mentions légales */
+
+#mentions {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#mentions h2 {
+  margin-bottom: 50px;
+}
