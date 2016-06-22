@@ -4,13 +4,74 @@
   <head>
     <meta charset="UTF-8">
     <title>Statuts</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/statuts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
   </head>
 
   <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div id="logo">
+          <a href="#logo" title="Accueil">
+            <img src="img/afcamLogo.png" alt="logo" />
+          </a>
+        </div>
+        <nav id="desktopMenu" class="hidden-xs">
+          <ul class="list-inline text-uppercase">
+            <li class="menuAbout active"><a href="index.html#about">L'association</a></li>
+            <li class="menuBureau"><a href="index.html#bureau">Bureau</a></li>
+            <li class="menuEvents"><a href="index.html#events">Évènements</a></li>
+            <li class="menuJoin"><a href="index.html#adherer">Adhérer</a></li>
+            <li class="menuContact"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <span id="menu-icon" class="visble-sm visible-xs glyphicon glyphicon-menu-hamburger"></span>
+        <nav id="mobileMenu" class="">
+          <ul class="list-unstyled">
+            <li class="menuAbout active"><a href="index.html#about">L'association</a></li>
+            <li class="menuBureau"><a href="index.html#bureau">Bureau</a></li>
+            <li class="menuEvents"><a href="index.html#events">Évènements</a></li>
+            <li class="menuJoin"><a href="index.html#adherer">Adhérer</a></li>
+            <li class="menuContact"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <header id="headerSmall">
+      <div class="container">
+        <div id="logo">
+          <a href="#logo" title="Accueil">
+            <img src="img/afcamLogo.png" alt="logo" />
+          </a>
+        </div>
+        <nav id="desktopMenu" class="hidden-xs">
+          <ul class="list-inline text-uppercase">
+            <li class="menuAbout active"><a href="index.html#about">L'association</a></li>
+            <li class="menuBureau"><a href="index.html#bureau">Bureau</a></li>
+            <li class="menuEvents"><a href="index.html#events">Évènements</a></li>
+            <li class="menuJoin"><a href="index.html#adherer">Adhérer</a></li>
+            <li class="menuContact"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <span id="menu-icon" class="visble-sm visible-xs glyphicon glyphicon-menu-hamburger"></span>
+        <nav id="mobileMenu" class="">
+          <ul class="list-unstyled">
+            <li class="menuAbout active"><a href="index.html#about">L'association</a></li>
+            <li class="menuBureau"><a href="index.html#bureau">Bureau</a></li>
+            <li class="menuEvents"><a href="index.html#events">Évènements</a></li>
+            <li class="menuJoin"><a href="index.html#adherer">Adhérer</a></li>
+            <li class="menuContact"><a href="index.html#contact">Contact</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- STATUTS -->
-    <section id="statuts"> 
+    <section id="statuts">
       <article>
         <h3>TITRE Ier – CONSTITUTION, BUT et COMPOSITION</h3>
         <h3 class="statuts_undertitle">Article Ier : Constitution et siège social</h3>
@@ -188,6 +249,21 @@
       <p style="text-align:right;">Le Président, Dominique CONTENSOUX.</p>
       </article>
     </section>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p>
+          ©2016 - AFCAM Île-de-France
+        </p>
+        <div id="legalFooter">
+          <ul class="list-inline">
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="statuts.html">Statuts</a></li>
+            <li><a href="#">Crédits</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 
 </html>
